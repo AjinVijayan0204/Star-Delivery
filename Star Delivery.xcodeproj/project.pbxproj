@@ -14,6 +14,8 @@
 		8711782E294E160300C68C2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711782D294E160300C68C2F /* Persistence.swift */; };
 		87117831294E160300C68C2F /* Star_Delivery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8711782F294E160300C68C2F /* Star_Delivery.xcdatamodeld */; };
 		87117838294E1AD700C68C2F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87117837294E1AD700C68C2F /* Launch Screen.storyboard */; };
+		872F95E5294E2EE500F5E515 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 872F95E4294E2EE500F5E515 /* Localizable.strings */; };
+		872F95E8294E2FC400F5E515 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95E7294E2FC400F5E515 /* AppStrings.swift */; };
 		875F6CAD294E27F0001B68A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 875F6CAC294E27F0001B68A8 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +28,8 @@
 		8711782D294E160300C68C2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		87117830294E160300C68C2F /* Star_Delivery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Star_Delivery.xcdatamodel; sourceTree = "<group>"; };
 		87117837294E1AD700C68C2F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		872F95E4294E2EE500F5E515 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		872F95E7294E2FC400F5E515 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 		87117818294E160100C68C2F = {
 			isa = PBXGroup;
 			children = (
+				872F95E6294E2EEF00F5E515 /* Common Data */,
+				872F95E4294E2EE500F5E515 /* Localizable.strings */,
 				87117823294E160100C68C2F /* Star Delivery */,
 				87117822294E160100C68C2F /* Products */,
 			);
@@ -59,6 +65,7 @@
 		87117823294E160100C68C2F /* Star Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				872F95E2294E2E8000F5E515 /* Starting pages */,
 				87117824294E160100C68C2F /* Star_DeliveryApp.swift */,
 				87117826294E160100C68C2F /* ContentView.swift */,
 				87117828294E160300C68C2F /* Assets.xcassets */,
@@ -76,6 +83,21 @@
 				8711782B294E160300C68C2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		872F95E2294E2E8000F5E515 /* Starting pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Starting pages";
+			sourceTree = "<group>";
+		};
+		872F95E6294E2EEF00F5E515 /* Common Data */ = {
+			isa = PBXGroup;
+			children = (
+				872F95E7294E2FC400F5E515 /* AppStrings.swift */,
+			);
+			path = "Common Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87117838294E1AD700C68C2F /* Launch Screen.storyboard in Resources */,
+				872F95E5294E2EE500F5E515 /* Localizable.strings in Resources */,
 				8711782C294E160300C68C2F /* Preview Assets.xcassets in Resources */,
 				87117829294E160300C68C2F /* Assets.xcassets in Resources */,
 			);
@@ -158,6 +181,7 @@
 				8711782E294E160300C68C2F /* Persistence.swift in Sources */,
 				87117827294E160100C68C2F /* ContentView.swift in Sources */,
 				87117825294E160100C68C2F /* Star_DeliveryApp.swift in Sources */,
+				872F95E8294E2FC400F5E515 /* AppStrings.swift in Sources */,
 				87117831294E160300C68C2F /* Star_Delivery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
