@@ -14,6 +14,7 @@
 		8711782E294E160300C68C2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8711782D294E160300C68C2F /* Persistence.swift */; };
 		87117831294E160300C68C2F /* Star_Delivery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8711782F294E160300C68C2F /* Star_Delivery.xcdatamodeld */; };
 		87117838294E1AD700C68C2F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87117837294E1AD700C68C2F /* Launch Screen.storyboard */; };
+		875F6CAD294E27F0001B68A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 875F6CAC294E27F0001B68A8 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875F6CAD294E27F0001B68A8 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,9 @@
 			dependencies = (
 			);
 			name = "Star Delivery";
+			packageProductDependencies = (
+				875F6CAC294E27F0001B68A8 /* FirebaseAuth */,
+			);
 			productName = "Star Delivery";
 			productReference = 87117821294E160100C68C2F /* Star Delivery.app */;
 			productType = "com.apple.product-type.application";
@@ -120,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 87117818294E160100C68C2F;
+			packageReferences = (
+				875F6CAB294E27F0001B68A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 87117822294E160100C68C2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -353,6 +361,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		875F6CAB294E27F0001B68A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		875F6CAC294E27F0001B68A8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 875F6CAB294E27F0001B68A8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		8711782F294E160300C68C2F /* Star_Delivery.xcdatamodeld */ = {
