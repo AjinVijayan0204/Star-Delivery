@@ -16,6 +16,10 @@
 		87117838294E1AD700C68C2F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87117837294E1AD700C68C2F /* Launch Screen.storyboard */; };
 		872F95E5294E2EE500F5E515 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 872F95E4294E2EE500F5E515 /* Localizable.strings */; };
 		872F95E8294E2FC400F5E515 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95E7294E2FC400F5E515 /* AppStrings.swift */; };
+		872F95EA294E315B00F5E515 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95E9294E315B00F5E515 /* Login.swift */; };
+		872F95EC294EC89700F5E515 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95EB294EC89700F5E515 /* AppColors.swift */; };
+		872F95EE294EC97E00F5E515 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95ED294EC97E00F5E515 /* Measurements.swift */; };
+		872F95F1294ECBDD00F5E515 /* TextField_Underlined.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872F95F0294ECBDD00F5E515 /* TextField_Underlined.swift */; };
 		875F6CAD294E27F0001B68A8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 875F6CAC294E27F0001B68A8 /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +34,10 @@
 		87117837294E1AD700C68C2F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		872F95E4294E2EE500F5E515 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		872F95E7294E2FC400F5E515 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		872F95E9294E315B00F5E515 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		872F95EB294EC89700F5E515 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		872F95ED294EC97E00F5E515 /* Measurements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		872F95F0294ECBDD00F5E515 /* TextField_Underlined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Underlined.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +55,6 @@
 		87117818294E160100C68C2F = {
 			isa = PBXGroup;
 			children = (
-				872F95E6294E2EEF00F5E515 /* Common Data */,
 				872F95E4294E2EE500F5E515 /* Localizable.strings */,
 				87117823294E160100C68C2F /* Star Delivery */,
 				87117822294E160100C68C2F /* Products */,
@@ -65,6 +72,7 @@
 		87117823294E160100C68C2F /* Star Delivery */ = {
 			isa = PBXGroup;
 			children = (
+				872F95E6294E2EEF00F5E515 /* Common Data */,
 				872F95E2294E2E8000F5E515 /* Starting pages */,
 				87117824294E160100C68C2F /* Star_DeliveryApp.swift */,
 				87117826294E160100C68C2F /* ContentView.swift */,
@@ -88,6 +96,8 @@
 		872F95E2294E2E8000F5E515 /* Starting pages */ = {
 			isa = PBXGroup;
 			children = (
+				872F95EF294ECB8B00F5E515 /* Widgets */,
+				872F95E9294E315B00F5E515 /* Login.swift */,
 			);
 			path = "Starting pages";
 			sourceTree = "<group>";
@@ -96,8 +106,18 @@
 			isa = PBXGroup;
 			children = (
 				872F95E7294E2FC400F5E515 /* AppStrings.swift */,
+				872F95EB294EC89700F5E515 /* AppColors.swift */,
+				872F95ED294EC97E00F5E515 /* Measurements.swift */,
 			);
 			path = "Common Data";
+			sourceTree = "<group>";
+		};
+		872F95EF294ECB8B00F5E515 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				872F95F0294ECBDD00F5E515 /* TextField_Underlined.swift */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +201,11 @@
 				8711782E294E160300C68C2F /* Persistence.swift in Sources */,
 				87117827294E160100C68C2F /* ContentView.swift in Sources */,
 				87117825294E160100C68C2F /* Star_DeliveryApp.swift in Sources */,
+				872F95EA294E315B00F5E515 /* Login.swift in Sources */,
+				872F95EC294EC89700F5E515 /* AppColors.swift in Sources */,
+				872F95F1294ECBDD00F5E515 /* TextField_Underlined.swift in Sources */,
 				872F95E8294E2FC400F5E515 /* AppStrings.swift in Sources */,
+				872F95EE294EC97E00F5E515 /* Measurements.swift in Sources */,
 				87117831294E160300C68C2F /* Star_Delivery.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
