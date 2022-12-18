@@ -10,8 +10,9 @@ import SwiftUI
 struct TextField_Underlined: View {
     
     var placeholder: String
-    @State var text: String = ""
-    @State var type: TextFieldTypes = .password
+//    @State var text: String = ""
+    @Binding var text: String
+    @State var type: TextFieldTypes = .normal
     var body: some View {
         
         VStack(alignment: .leading) {
@@ -70,8 +71,11 @@ extension TextFieldTypes{
         }
     }
 }
+
+/*
 struct TextField_Underlined_Previews: PreviewProvider {
     static var previews: some View {
         TextField_Underlined(placeholder: "Enter")
     }
 }
+*/

@@ -13,4 +13,8 @@ struct AppColors{
     //text colors
     static var lightGrey = Color("lightGrey")
     
+    
+    //App colors
+    static var primaryColor = Color("orange")
+
 }

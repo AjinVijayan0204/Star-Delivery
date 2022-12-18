@@ -9,3 +9,7 @@
 "welcome" = "Welcome to";
 "app_name" = "STAR DELIVERY";
 "login_tag" = "LOGIN TO YOUR ACCOUNT";
+"email_placeholder" = "Enter Email ID";
+"password_placeholder" = "Enter Password";
+"forgot_password" = "Forgot Password?";
+"login" = "LOGIN";
